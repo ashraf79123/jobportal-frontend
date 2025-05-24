@@ -1,0 +1,47 @@
+
+
+/* For screens 600px and below: stack boxes vertically */
+@media (max-width: 600px) {
+  .job-grid {
+    grid-template-columns: 1fr;
+     display: grid;
+     flex-wrap: wrap;
+     display: inline-block;
+     margin-bottom:10px ;
+      /* 1 box per row */
+  }
+}
+@media (min-width: 600px) {
+  .job-grid {
+    grid-template-columns: 1fr;
+     display: grid;
+     flex-wrap: wrap;
+      /* 1 box per row */
+  }
+}
+@media (min-width: 600px) {
+  .job-card {
+    grid-template-columns: 1fr;
+     display: grid;
+     flex-wrap: wrap;
+      /* 1 box per row */
+  }
+}
+
+
+@media (max-width: 600px) {
+  .job-card {
+    grid-template-columns: 1fr;
+      width: 100%;
+
+     display: inline-block !important;
+     margin-bottom:10px ;
+     box-sizing: border-box;
+     
+      /* 1 box per row */
+  }
+}
+
+
+
+
